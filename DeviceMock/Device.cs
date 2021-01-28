@@ -141,7 +141,8 @@ namespace DeviceMock
 
         private void HelloHandle()
         {
-            throw new NotImplementedException();
+            Console.WriteLine("received getStatus");
+            Send(0xf0);
         }
     }
 }
