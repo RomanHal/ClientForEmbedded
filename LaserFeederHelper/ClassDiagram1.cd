@@ -1,0 +1,224 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="LaserFeederHelper.App" Collapsed="true">
+    <Position X="12" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAIAAAAAAAAAAAAAAEAAAAAAAAAAA=</HashCode>
+      <FileName>App.xaml.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="LaserFeederHelper.MainWindow" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="13.75" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAIAAAA=</HashCode>
+      <FileName>View\MainWindow.xaml.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.103" />
+  </Class>
+  <Class Name="LaserFeederHelper.Controls.SetSettings" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="15.5" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Controls\SetSettings.xaml.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="LaserFeederHelper.Controls.YesNoDialog" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="15.5" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Controls\YesNoDialog.xaml.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.142" />
+  </Class>
+  <Class Name="LaserFeederHelper.Models.Connection.Commands.CommandsController" Collapsed="true">
+    <Position X="13.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAgAAAAAAAAAEAAAAAAAAAAAAAAAACAAAAAAAAAA=</HashCode>
+      <FileName>Models\Connection\Commands\CommandsController.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="LaserFeederHelper.Models.Connection.Commands.ParameterChanger" Collapsed="true">
+    <Position X="0.5" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAACAAAAAAACAAAAAAAAAA=</HashCode>
+      <FileName>Models\Connection\Commands\ParameterChanger.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="LaserFeederHelper.Models.Connection.Commands.Sender" Collapsed="true">
+    <Position X="5" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAEAAAgACAACEAAAAAAAAAAAAEACEBAAAAAAAA=</HashCode>
+      <FileName>Models\Connection\Commands\Sender.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="LaserFeederHelper.Models.Connection.Commands.SettingsGetter" Collapsed="true">
+    <Position X="2.75" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACAAAAAAAAAA=</HashCode>
+      <FileName>Models\Connection\Commands\SettingsGetter.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="LaserFeederHelper.Models.Connection.Commands.Starter" Collapsed="true">
+    <Position X="5" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAQAACAAAAAAAAAA=</HashCode>
+      <FileName>Models\Connection\Commands\Starter.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="LaserFeederHelper.Models.Connection.Commands.StatusGetter" Collapsed="true">
+    <Position X="7.25" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAEAAAAAAAACAAAAAAAAAA=</HashCode>
+      <FileName>Models\Connection\Commands\StatusGetter.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="LaserFeederHelper.Models.Connection.Commands.Stopper" Collapsed="true">
+    <Position X="9.5" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAQAAAAAAAAAAAAAAAAAAAAAAAACAAAAAAAAAA=</HashCode>
+      <FileName>Models\Connection\Commands\Stopper.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="LaserFeederHelper.Models.Connection.ConnectionController" Collapsed="true">
+    <Position X="15.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>QAAEAAAEAIAAAAAAAAAAAKCAAACEAAABCAAAAQAABAA=</HashCode>
+      <FileName>Models\Connection\ConnectionController.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="LaserFeederHelper.Models.Connection.ConnectionHandler" Collapsed="true">
+    <Position X="17.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAIAAABAAAAAAAAEAAIIAAAAACABAAAAAAAAAAAAA=</HashCode>
+      <FileName>Models\Connection\ConnectionHandler.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="LaserFeederHelper.Models.Connection.Interpreters.DecoderController" Collapsed="true">
+    <Position X="12" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAIAAEACAAAAAAAAAAAACAAAAAgAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Models\Connection\Decoders\DecoderController.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="LaserFeederHelper.Models.Connection.Interpreters.DecodingHandler" Collapsed="true">
+    <Position X="5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAIAAAEAAAAAAAAEAAAAAAAAAAAAIAAEAAAAAAAAA=</HashCode>
+      <FileName>Models\Connection\Decoders\DecodingHandler.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="LaserFeederHelper.Models.Connection.Interpreters.GetSettingsHandler" Collapsed="true">
+    <Position X="7.25" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAgAAAAAAABAAAAAAACAAAAAgAIAAAAAAAAAAAA=</HashCode>
+      <FileName>Models\Connection\Decoders\GetSettingsHandler.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="LaserFeederHelper.Models.Connection.Interpreters.GetStatusHandler" Collapsed="true">
+    <Position X="9.5" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAEAAAAAAAAAAAAAAAAAAAAAAIAAAgAAAAAAAA=</HashCode>
+      <FileName>Models\Connection\Decoders\GetStatusHandler.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="LaserFeederHelper.Models.Connection.Interpreters.ResopnseHandler" Collapsed="true">
+    <Position X="0.5" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAgAAAAAAAAAAAAAAAAAAAAAAAAIAAAAAAAAAAAA=</HashCode>
+      <FileName>Models\Connection\Decoders\ResopnseHandler.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="LaserFeederHelper.Models.Connection.Interpreters.SetSettingsReHandler" Collapsed="true">
+    <Position X="2.75" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAEAAAAAAAAAAAAAAAAAAAAAAIAAAAAAAAAAAA=</HashCode>
+      <FileName>Models\Connection\Decoders\SetSettingsReHandler.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="LaserFeederHelper.Models.Connection.Interpreters.ShootHandler" Collapsed="true">
+    <Position X="5" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAACAAAAAAAAAAAAAAAAAAAAAAIAAAAAAAFgAAA=</HashCode>
+      <FileName>Models\Connection\Decoders\ShootHandler.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="LaserFeederHelper.Models.WindowFocuser" Collapsed="true">
+    <Position X="13.75" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAACAAAAAAAAAAAAEBgAAA=</HashCode>
+      <FileName>Models\WindowFocuser.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="LaserFeederHelper.Properties.Resources" Collapsed="true">
+    <Position X="17.25" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAABEAAAAQAAAAAAAAAAAAAAAIA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="LaserFeederHelper.Properties.Settings" Collapsed="true">
+    <Position X="12" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAIAAAAAABAAAAAAAAAAAAAAA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="LaserFeederHelper.Resources.SerialCodeCommand" Collapsed="true">
+    <Position X="12" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAQAAgAACAAAAAAAAAAAACEAAAAAAAAICAAAAAAAAA=</HashCode>
+      <FileName>Resources\SerialCodeCommand.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="LaserFeederHelper.Resources.SerialCodeRsponse" Collapsed="true">
+    <Position X="13.75" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAQAAAEAAIAAAABAAAAQAAAAAIAAAAAgAAAAAAAAAA=</HashCode>
+      <FileName>Resources\SerialCodeRsponse.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="LaserFeederHelper.VM.MainWindowVM">
+    <Position X="10.75" Y="5.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAEAYAACCAAgAAAAAABAAACAAQAAAAQAIBBAAAIBIRA=</HashCode>
+      <FileName>VM\MainWindowVM.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="LaserFeederHelper.VM.SetSettingsVM" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="17.25" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAEAIAAAUBAAAAABACAAAAAAAAAIABBAAiIAAI=</HashCode>
+      <FileName>VM\SetSettingsVM.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="LaserFeederHelper.VM.YesNoDialogVM" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="17.25" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAEAIAAAUBAAAAABAAAAAAAAAAAMAAAIAgIAAI=</HashCode>
+      <FileName>VM\YesNoDialogVM.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Enum Name="LaserFeederHelper.Enums.Status" Collapsed="true">
+    <Position X="15.5" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAgAABAAAAAAAEAAAAAAAAAAAAAAAAAAAAIAAAAAAA=</HashCode>
+      <FileName>Enums\Status.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="LaserFeederHelper.Resources.DeviceStatus" Collapsed="true">
+    <Position X="12" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAEAAABIAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAgAAA=</HashCode>
+      <FileName>Resources\DeviceStatus.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="LaserFeederHelper.Resources.SerialCommands" Collapsed="true">
+    <Position X="13.75" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAQAAgAACAAAAAAAAAAAACEAAAAAAAAICAAAAAAAAA=</HashCode>
+      <FileName>Resources\SerialCommands.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

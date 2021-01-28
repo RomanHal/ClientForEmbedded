@@ -29,7 +29,8 @@ namespace LaserFeederHelper.Models.Connection
         public void Connect()
         {
             _serialPort.BaudRate = _baudRate;
-            _serialPort.PortName = SerialPort.GetPortNames()[0];
+            var portNames= SerialPort.GetPortNames().Where(c=>c.Contains("COM")).ToArray();
+            _serialPort.PortName = portNames[0];
             _serialPort.Open();
         }
 

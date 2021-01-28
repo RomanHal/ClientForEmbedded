@@ -1,6 +1,5 @@
 ﻿using LaserFeederHelper.Models;
 using LaserFeederHelper.Models.Connection;
-using LaserFeederHelper.View;
 using Prism.Commands;
 using Prism.Services.Dialogs;
 using System;
@@ -41,7 +40,7 @@ namespace LaserFeederHelper.VM
             _connectionController = new ConnectionController(ConnectionErrorHandler);
             _focuser = new WindowFocuser();
             ConnectCommand = new DelegateCommand(()=> { _connectionController.Connect(); _refresher.Start(); });
-            FocusNotepadCommand = new DelegateCommand(_focuser.FocusAndWrite);
+            FocusNotepadCommand = new DelegateCommand(()=>_focuser.FocusAndWrite("notepad++","message"));
             SetSettingsCommand = new DelegateCommand(SetSettings);
             ExitCommand = new DelegateCommand(Exit);
             _refresher.AutoReset = true;

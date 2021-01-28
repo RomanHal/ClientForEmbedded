@@ -5,6 +5,7 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
+using System.Threading;
 using System.Threading.Tasks;
 
 namespace LaserFeederHelper.Models.Connection
@@ -42,6 +43,7 @@ namespace LaserFeederHelper.Models.Connection
         }
         public byte SendData()
         {
+            while(bytesToInterpreting.Count==0) Thread.Sleep(1000);
             return bytesToInterpreting.Dequeue();
         }
         public void ErrorHandler()

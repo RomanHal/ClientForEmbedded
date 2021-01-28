@@ -16,7 +16,7 @@ namespace LaserFeederHelper.Models
 
         [DllImport("user32.dll")]
         internal static extern bool ShowWindow(IntPtr hWnd, int nCmdShow);
-        public void FocusAndWrite()
+        public void FocusAndWrite(string processName,string message)
         {
             var importantMessage = "test123";
             var proceses = Process.GetProcessesByName("notepad++");
